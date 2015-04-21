@@ -24,7 +24,7 @@ public class Main {
 						final    DateFormat dateformat = new SimpleDateFormat("dd/M/yyyy");
 						final   DateFormat timeformat = new SimpleDateFormat("HH:mm:ss");
 						final    Date date = new Date();
-						final  ODatabaseDocumentTx db = new ODatabaseDocumentTx("remote:192.168.1.199/storedb")
+						final  ODatabaseDocumentTx db = new ODatabaseDocumentTx("remote:localhost/storedb")
 						.open("root", "1234");
 						
 						 try 
